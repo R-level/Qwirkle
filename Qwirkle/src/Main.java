@@ -1,4 +1,4 @@
-import Controller.Game.GameState;
+import za.nmu.mandela.qwirkle_game.Model.GameState;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Main {
         new Main();
     }
     public Main(){
-        System.out.println("\n\n\tWelcome to the Controller.Client.Client.Game of Qwirkle!!\n " +
+        System.out.println("\n\n\tWelcome to the za.nmu.mandela.qwirkle_game_client.Controller.Client.Client.Game of Qwirkle!!\n " +
                 "\tHow many players shall take part today?\n" +
                 "\t Please Select:\n" +
                 "\t 2 players > [PRESS 2]\n" +
@@ -24,6 +24,7 @@ public class Main {
             switch(choice){
                 case "2":
                     gameState= new GameState(2);
+
                     break;
                 case"3":
                     gameState= new GameState(3);
